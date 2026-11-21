@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Elimina el espaciado predeterminado y hace que la página abarque toda la ventana gráfica. */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  /* Evita las barras de desplazamiento del navegador*/
+  overflow: hidden;
+}
+
+/* Elimina el espacio en línea */
+canvas {
+  display: block;
+}
